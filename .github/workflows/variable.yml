@@ -4,6 +4,6 @@ jobs:
   print:
     runs-on: ubuntu-latest
     env:
-      USENAME: ${vars.USERNAME}
+      USENAME: ${{vars.USERNAME}}
     steps:
       - run: echo "${USERNAME}"
